@@ -1,0 +1,24 @@
+---
+layout: post
+title: "I am lost"
+date: 2018-09-04 00:00:00 -0500
+content_date: 2018-09-04 00:00:00 -0500
+location:
+author: nehar
+categories: mine
+---
+I am lost, tired, and adrift, in a world filled with hate <br>
+And for now it feels like I'm out of defiance. <br>
+And I'm losing, I'm losing, I'm losing <br>
+That beautiful dawn I used to believe in, <br>
+And I don't know what to do. <br>
+I don't know what to do love, <br>
+And I don't remember the words - <br>
+words that brought faith, <br>
+words that once could heal. <br>
+With a tired faith and lost words, <br>
+I don't know how to remember anymore <br>
+and I'm forgetting how to keep the covenant. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;-- {{page.author}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
