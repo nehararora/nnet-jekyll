@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<h3> We are the sum of our actions </h3>
