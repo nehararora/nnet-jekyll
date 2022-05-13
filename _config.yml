@@ -28,6 +28,11 @@ url: "nehar.net" # the base hostname & protocol for your site, e.g. http://examp
 twitter_username: nehararora
 github_username:  nehararora
 
+# Headers
+webrick:
+  headers:
+    X-Clacks-Overhead: GNU Terry Pratchett
+
 # Build settings
 theme: minima
 plugins:
