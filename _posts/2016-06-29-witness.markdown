@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Witness"
+date: 2016-06-29 00:00:00 -0500
+content_date: 2016-06-29 00:00:00 -0500
+location:
+author: nehar
+categories: mine
+---
+
+Hate always wins <br>
+Division always wins <br>
+It's easier to tear down. Always. <br> 
+As things break apart and crumble, <br>
+More often than not, In this best of all possible worlds, <br>
+We who would defend can but stand aghast and witness.
+
+&nbsp;&nbsp;&nbsp;&nbsp;-- {{page.author}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
