@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Refuge"
+date: 2012-10-08 00:00:00 -0500
+content_author: Nehar
+content_date: Oct 08, 2012
+location:
+author: nehar
+categories: mine
+---
+
+In this mad spinning world <br>
+You - you are the immovable center <br> 
+Anchoring my reality <br>
+With your very being, shaping the fiber of mine. <br> 
+I know of the impermanence of life <br>
+The triviality of existence <br>
+But in theses few moments of peace <br> 
+I can feel the shape of eternities. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
