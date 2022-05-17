@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Breath"
+date: 2015-06-22 11:33:48 -0500
+content_author: Nehar
+content_date: June 22, 2015
+location:
+author: nehar
+categories: mine
+---
+
+In some slow time, <br>
+and another deeper space, <br>
+I could be bigger than this... <br>
+I would be - more unfathomable. <br>
+A broader river winds through  <br>
+the woods, <br>
+and I would follow if I could <br> 
+The brighter starlight that falls - <br>
+if only I could see it as I should.
+
+While all the truth that I can muster waits <br>
+expectant... lingering... in the silence, <br>
+the slowed time passes... <br>
+...and the  wider spaces shrink. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}

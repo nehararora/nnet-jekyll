@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Run"
+date: 2015-05-21 22:30:00 -0500
+content_author: Nehar
+content_date: May 21, 2015, 10:30 pm
+location:
+author: nehar
+categories: mine
+---
+
+In this liquid world, <br>
+In this fluid, fluid, fluid world <br>
+How do I remember to run and breathe at the same time. <br> 
+Run, run, run while the minutes drain through <br>
+Mine and yours, darkness claims its piece of flesh. <br> 
+I raise my hand - and my armies rise <br>
+I raise my hands - and the blood tide rises <br>
+In this crumbling place, in this tiny narrow place <br>
+In this mean small space. <br>
+
+  _Remember this._ <br>
+I raise my hands <br>
+  _Remember this_ <br>
+I raise my head <br>
+  _Remember this_ <br>
+I raise my eyes <br>
+  _Remember this_ <br>
+look up at the sky <br>
+Remember this - before the breath slips away. <br> 
+
+There were those of us who thought of this <br>
+There were those of us who remembered this <br>
+In this liquid world <br>
+In this fluid, fluid, fluid world <br>
+Breathe and run, breathe and run, breathe and run <br>
+How do I remember to breathe and run at the same damn time <br>
+On this spinning, rocking world <br>
+The divine slips away as we run and breathe, <br> 
+run and breathe, <br>
+run and breathe, <br>
+run and breathe, <br>
+one last damn time. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
