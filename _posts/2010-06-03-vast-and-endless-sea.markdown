@@ -2,11 +2,12 @@
 layout: post
 title: "The Vast and Endless Sea"
 date: 2010-06-03 08:36:07 -0500
+
 content_author: Antoine de Saint-Exupéry
 content_date:
 location:
 author: nehar
-categories: notes
+categories: quotes
 ---
 
  If you want to build a ship, don't drum up the men to gather wood,

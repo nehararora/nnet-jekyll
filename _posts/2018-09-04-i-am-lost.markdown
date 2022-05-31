@@ -2,6 +2,8 @@
 layout: post
 title: "I am lost"
 date: 2018-09-04 00:00:00 -0500
+
+content_author: Nehar
 content_date: 2018-09-04 00:00:00 -0500
 location:
 author: nehar

@@ -7,7 +7,7 @@ content_author: Nehar
 content_date: 2009-11-25, 2:06am
 location:
 author: nehar
-categories: notes
+categories: mine
 ---
 
 And you write in blood, <br>
