@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Witness"
 date: 2016-06-29 00:00:00 -0500
 
 content_author: Nehar
 content_date: 2016-06-29 00:00:00 -0500
-location:
-author: nehar
+
 categories: mine
 ---
 

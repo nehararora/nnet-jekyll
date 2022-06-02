@@ -1,12 +1,8 @@
 ---
-layout: post
 title: "Awk Column Capture"
 date: 2010-08-25 14:54:18 -0500
 
 content_author:
-content_date:
-location:
-author: nehar
 categories: notes
 ---
 

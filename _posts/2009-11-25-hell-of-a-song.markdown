@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Hell of a Song"
 date: 2009-11-25, 02:06:00 -0500
 
 content_author: Nehar
 content_date: 2009-11-25, 2:06am
-location:
-author: nehar
+
 categories: mine
 ---
 

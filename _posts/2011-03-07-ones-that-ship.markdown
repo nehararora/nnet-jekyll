@@ -1,12 +1,9 @@
 ---
-layout: post
 title: "The Ones that Ship"
 date: 2011-03-07 07:54:34 -0500
 
 content_author: Mark Pilgrim
-content_date:
-location:
-author: nehar
+
 categories: quotes
 ---
 
