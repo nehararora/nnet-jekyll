@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Passing of the Divine"
 date: 2014-09-02 01:52:28 -0500
 
 content_author: Nehar
 content_date: Sept 02, 2014
-location:
-author: nehar
+
 categories: mine
 ---
 

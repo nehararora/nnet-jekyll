@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "I will not falter"
 date: 2017-08-16 07:00:00 -0500
 
 content_author: Nehar
 content_date: 2017-08-16 07:00:00 -0500
 location: Holmdel, NJ
-author: nehar
+
 categories: mine
 ---
 

@@ -1,12 +1,11 @@
 ---
-layout: post
 title: "The Man in the Arena"
 date: 2016-03-18 11:33:48 -0500
 
 content_author: Theodore Roosevelt
 content_date: April 23, 1910,
 location: Sorbonne, Paris
-author: nehar
+
 categories: quotes
 ---
 

@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Forgiveness"
 date: 2017-03-23 00:00:00 -0500
 
 content_author: Nehar
 content_date: 2017-03-23 00:00:00 -0500
-location:
-author: nehar
+
 categories: mine
 ---
 
