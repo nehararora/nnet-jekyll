@@ -15,6 +15,9 @@ Yet there must remain believers - <br>
 bereft of faith if need be, <br>
 To mark the passing of the divine. <br>
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

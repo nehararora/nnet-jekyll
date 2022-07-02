@@ -23,6 +23,9 @@ expectant... lingering... in the silence, <br>
 the slowed time passes... <br>
 ...and the  wider spaces shrink. <br>
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

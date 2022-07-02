@@ -14,5 +14,8 @@ But in these brief moments of clarity - <br>
 Wrapped in the feel of the warm sunlight on yellow grass, <br>
 I can imagine the peace of eternity.
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

@@ -15,5 +15,7 @@ In this hate soaked, anger tainted world <br>
 My soul I choose to keep.
 
 
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

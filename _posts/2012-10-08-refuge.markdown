@@ -17,6 +17,9 @@ The triviality of existence <br>
 But in theses few moments of peace <br> 
 I can feel the shape of eternities. <br>
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

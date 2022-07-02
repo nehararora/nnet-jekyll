@@ -52,7 +52,8 @@ we fucked up the tune <br>
 we missed the beat <br>
 otherwise was a hell of a song. <br>
 
-
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

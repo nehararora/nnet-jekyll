@@ -20,5 +20,8 @@ With a tired faith and lost words, <br>
 I don't know how to remember anymore <br>
 and I'm forgetting how to keep the covenant. <br>
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

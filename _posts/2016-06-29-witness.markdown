@@ -15,5 +15,8 @@ As things break apart and crumble, <br>
 More often than not, In this best of all possible worlds, <br>
 We who would defend can but stand aghast and witness.
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>

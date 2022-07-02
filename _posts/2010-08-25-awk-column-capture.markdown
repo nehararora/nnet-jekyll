@@ -18,6 +18,9 @@ Replace the comma with whatever your field separator is.
 Replace $1 with whatever column number you're looking for.
 Counts unique values - get rid of sort -u to get everything.
 
+
+<span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.content_date}} <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{page.location}}
+</span>
