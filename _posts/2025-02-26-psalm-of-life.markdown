@@ -9,10 +9,10 @@ location: Cambridge, Massachusett
 categories: quotes
 ---
 
-Art is long, and Time is fleeting,
-     And our hearts, though stout and brave,
-Still, like muffled drums, are beating
-     Funeral marches to the grave.
+Art is long, and Time is fleeting, <br>
+     And our hearts, though stout and brave, <br>
+Still, like muffled drums, are beating <br>
+     Funeral marches to the grave. <br>
 
 <span class="post-meta">
 &nbsp;&nbsp;&nbsp;&nbsp;-- {{page.content_author}} <br>
