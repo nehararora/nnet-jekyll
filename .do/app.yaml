@@ -1,0 +1,11 @@
+name: nnet-jekyll
+region: nyc
+static_sites:
+  - name: nnet-jekyll
+    github:
+      repo: nehararora/nnet-jekyll
+      branch: main
+      deploy_on_push: true
+    build_command: bundle install && bundle exec jekyll build
+    output_dir: _site
+    environment_slug: ruby
