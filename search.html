@@ -7,13 +7,17 @@ layout: default
 <input type="text" id="search-input" placeholder="Search posts..." style="width: 100%; padding: 8px; font-size: 16px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
 
 <div id="search-results"></div>
+<div id="search-pagination" class="pagination"></div>
 
-<script src="{{ "/assets/js/lunr.js" | relative_url }}"></script>
 <script>
 (function() {
   var searchInput = document.getElementById('search-input');
   var resultsContainer = document.getElementById('search-results');
+  var paginationContainer = document.getElementById('search-pagination');
   var index, store;
+  var perPage = {{ site.pagination.per_page | default: 10 }};
+  var currentPage = 1;
+  var currentResults = [];
 
   fetch('{{ "/search.json" | relative_url }}')
     .then(function(response) { return response.json(); })
@@ -39,42 +43,72 @@ layout: default
     });
 
   searchInput.addEventListener('input', function() {
+    currentPage = 1;
     performSearch(this.value.trim());
   });
 
   function performSearch(query) {
     if (!query || !index) {
       resultsContainer.innerHTML = '';
+      paginationContainer.innerHTML = '';
       return;
     }
 
     try {
-      var results = index.search(query);
+      currentResults = index.search(query);
     } catch(e) {
-      var results = index.search(query.replace(/[:\~\^\+\-]/g, ''));
+      currentResults = index.search(query.replace(/[:\~\^\+\-]/g, ''));
     }
 
-    if (results.length === 0) {
+    if (currentResults.length === 0) {
       resultsContainer.innerHTML = '<p>No results found.</p>';
+      paginationContainer.innerHTML = '';
       return;
     }
 
-    var html = '<ul style="list-style: none; padding: 0;">';
-    results.forEach(function(result) {
+    renderPage();
+  }
+
+  function renderPage() {
+    var totalPages = Math.ceil(currentResults.length / perPage);
+    var start = (currentPage - 1) * perPage;
+    var pageResults = currentResults.slice(start, start + perPage);
+
+    var html = '';
+    pageResults.forEach(function(result) {
       var item = store.find(function(doc) { return doc.url === result.ref; });
       if (item) {
-        html += '<li style="margin-bottom: 20px;">';
-        html += '<a href="' + item.url + '"><strong>' + item.title + '</strong></a>';
-        html += '<br><span class="post-meta">' + item.date;
-        if (item.categories) {
-          html += ' &middot; ' + item.categories;
-        }
-        html += '</span>';
-        html += '</li>';
+        html += '<h1><a href="' + item.url + '">' + item.title + '</a></h1>';
+        html += '<p class="author"><span class="post-meta">' + item.date + '</span></p>';
+        html += '<div class="content">' + item.html + '</div>';
       }
     });
-    html += '</ul>';
     resultsContainer.innerHTML = html;
+
+    var pag = '';
+    if (totalPages > 1) {
+      if (currentPage > 1) {
+        pag += '<a href="#" class="previous" data-page="' + (currentPage - 1) + '">Previous</a>';
+      } else {
+        pag += '<span class="previous">Previous</span>';
+      }
+      pag += '<span class="page_number">Page: ' + currentPage + ' of ' + totalPages + '</span>';
+      if (currentPage < totalPages) {
+        pag += '<a href="#" class="next" data-page="' + (currentPage + 1) + '">Next</a>';
+      } else {
+        pag += '<span class="next">Next</span>';
+      }
+    }
+    paginationContainer.innerHTML = pag;
+
+    paginationContainer.querySelectorAll('a[data-page]').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        currentPage = parseInt(this.getAttribute('data-page'));
+        renderPage();
+        window.scrollTo(0, 0);
+      });
+    });
   }
 })();
 </script>
