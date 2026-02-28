@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<h3>Search</h3>
+
+<input type="text" id="search-input" placeholder="Search posts..." style="width: 100%; padding: 8px; font-size: 16px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+<div id="search-results"></div>
+
+<script src="{{ "/assets/js/lunr.js" | relative_url }}"></script>
+<script>
+(function() {
+  var searchInput = document.getElementById('search-input');
+  var resultsContainer = document.getElementById('search-results');
+  var index, store;
+
+  fetch('{{ "/search.json" | relative_url }}')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      store = data;
+      index = lunr(function() {
+        this.ref('url');
+        this.field('title', { boost: 10 });
+        this.field('content');
+        this.field('categories');
+
+        data.forEach(function(doc) {
+          this.add(doc);
+        }, this);
+      });
+
+      var params = new URLSearchParams(window.location.search);
+      var query = params.get('q');
+      if (query) {
+        searchInput.value = query;
+        performSearch(query);
+      }
+    });
+
+  searchInput.addEventListener('input', function() {
+    performSearch(this.value.trim());
+  });
+
+  function performSearch(query) {
+    if (!query || !index) {
+      resultsContainer.innerHTML = '';
+      return;
+    }
+
+    try {
+      var results = index.search(query);
+    } catch(e) {
+      var results = index.search(query.replace(/[:\~\^\+\-]/g, ''));
+    }
+
+    if (results.length === 0) {
+      resultsContainer.innerHTML = '<p>No results found.</p>';
+      return;
+    }
+
+    var html = '<ul style="list-style: none; padding: 0;">';
+    results.forEach(function(result) {
+      var item = store.find(function(doc) { return doc.url === result.ref; });
+      if (item) {
+        html += '<li style="margin-bottom: 20px;">';
+        html += '<a href="' + item.url + '"><strong>' + item.title + '</strong></a>';
+        html += '<br><span class="post-meta">' + item.date;
+        if (item.categories) {
+          html += ' &middot; ' + item.categories;
+        }
+        html += '</span>';
+        html += '</li>';
+      }
+    });
+    html += '</ul>';
+    resultsContainer.innerHTML = html;
+  }
+})();
+</script>
