@@ -1,5 +1,29 @@
-name: nnet-jekyll
+name: squid-app
 region: nyc
+domains:
+  - domain: nehararora.net
+    type: PRIMARY
+    zone: nehararora.net
+  - domain: nehararora.com
+    type: ALIAS
+    zone: nehararora.com
+  - domain: nehar.net
+    type: ALIAS
+  - domain: www.nehar.net
+    type: ALIAS
+  - domain: www.nehararora.com
+    type: ALIAS
+    zone: nehararora.com
+  - domain: www.nehararora.net
+    type: ALIAS
+    zone: nehararora.net
+ingress:
+  rules:
+    - component:
+        name: nnet-jekyll
+      match:
+        path:
+          prefix: /
 static_sites:
   - name: nnet-jekyll
     github:
@@ -9,3 +33,4 @@ static_sites:
     build_command: bundle install && bundle exec jekyll build
     output_dir: _site
     environment_slug: ruby
+    source_dir: /
