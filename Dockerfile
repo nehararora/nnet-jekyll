@@ -1,4 +1,4 @@
-FROM ruby:3.3-slim AS builder
+FROM ruby:3.4.7-slim AS builder
 RUN apt-get update -qq && apt-get install -y -qq build-essential && rm -rf /var/lib/apt/lists/*
 WORKDIR /site
 COPY Gemfile Gemfile.lock ./
